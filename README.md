@@ -3,7 +3,7 @@
 
 ## Control Flow Graph
 (бројките ми се означени во кодот прикачен во репозиториумот)
-![cf diagram](https://github.com/Alex9633/SI_2023_lab2_215093/assets/120327803/d13e618b-c7b8-47a2-9a5c-529d91e627cb)
+![cfd](https://github.com/Alex9633/SI_2023_lab2_215093/assets/120327803/2676bc94-d704-44ae-b4fe-cd43797e3cc4)
 
 
 
