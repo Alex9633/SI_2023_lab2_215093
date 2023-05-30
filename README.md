@@ -24,14 +24,10 @@
 
 
 ## Тест случаи според критериумот Multiple Condition за (user==null || user.getPassword()==null || user.getEmail()==null)
-- Тест случај 1: сите се null
-- Тест случај 2: user != null, password == null, email == null
-- Тест случај 3: user == null, password != null, email == null
-- Тест случај 4: user == null, password == null, email != null
-- Тест случај 5: user != null, password != null, email == null
-- Тест случај 6: user != null, password == null, email != null
-- Тест случај 7: user == null, password != null, email != null
-- Тест случај 8: сите не се null
+- Тест случај 1: user == null, password != null, email != null
+- Тест случај 2: user != null, password == null, email != null
+- Тест случај 3: user != null, password != null, email == null
+- Тест случај 4: user != null, password != null, email != null
 
-Во сите случаеви, освен тест случај 8, ќе биде проверено дали ќе биде фрлен исклучок т.е. ако фали барем една од информациите.
-Во тест случај 8 се проверува дали функцијата враќа true кога се присутни сите три задолжителни полиња.
+Бидејќи имаме логичко or секаде, ако наидеме на true statement нема врска другите што се, програмата нема да провери.
+Кај првите три ќе фрли exception, кај четвртиот ќе продолжи понатаму.
