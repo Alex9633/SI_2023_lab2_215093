@@ -24,10 +24,10 @@
 
 
 ## Тест случаи според критериумот Multiple Condition за (user==null || user.getPassword()==null || user.getEmail()==null)
-- Тест случај 1: user == null, password != null, email != null
-- Тест случај 2: user != null, password == null, email != null
+- Тест случај 1: user == null, password X null, email X null
+- Тест случај 2: user != null, password == null, email X null
 - Тест случај 3: user != null, password != null, email == null
 - Тест случај 4: user != null, password != null, email != null
 
-Бидејќи имаме логичко or секаде, ако наидеме на true statement нема врска другите што се, програмата нема да провери.
+Бидејќи имаме логичко or секаде, ако наидеме на true statement нема врска другите што се, програмата нема да провери. (X -> или != или ==)
 Кај првите три ќе фрли exception, кај четвртиот ќе продолжи понатаму.
